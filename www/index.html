@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="lib/html_to_pdf/Blob.js"></script>
+    <script src="lib/html_to_pdf/canvas-toBlob.js"></script>
+    <script src="lib/html_to_pdf/FileSaver.min.js"></script>
+    <script src="lib/html_to_pdf/jspdf.min.js"></script>
+    <script src="lib/html_to_pdf/jspdf.plugin.addimage.js"></script>
+    <script src="lib/html_to_pdf/jspdf.plugin.png_support.js"></script>
+    <script src="lib/html_to_pdf/png.js"></script>
+    <script src="lib/html_to_pdf/rasterizeHTML.allinone.js"></script>
+    <script src="lib/html_to_pdf/zlib.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body ng-app="html2pdf" ng-controller="html2pdfCtrl">
+
+<ion-pane>
+    <ion-header-bar class="bar-royal">
+        <h1 class="title">HTML to PDF Demo</h1>
+    </ion-header-bar>
+    <ion-content>
+
+      <div align="left" id="thehtml" class="background2">
+            <br>
+            <link href="css/tbl.css" rel="stylesheet">
+            <p>ABC Corp</p>
+            <p class="textquotation2">ABC</p>
+            <p>REGION I</p>
+            <br>
+            <p class="textquotation3">ABC</p>
+            <p class="textquotation4">ABC</p>
+            <p class="textquotation3">ABC</p>
+            <p class="textquotation3">ABC</p>
+            <br>
+            <div class="CSSTable" >
+                 <table>
+                    <tr>
+                        <td>
+                            ABC
+                        </td>
+                        <td>
+                            ABC
+                        </td>
+                        <td>
+                           <b>ABC</b>
+                        </td>
+                        <td>
+                             <b>shdhshdlshldhl</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           ABC
+                        </td>
+                        <td style="background-color: #ccc;">
+                           ABC
+                        </td>
+                        <td>
+                           ABC
+                        </td>
+                        <td>
+                           ABC  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          ABC
+                        </td>
+                        <td>
+                           ABC
+                        </td>
+                        <td>
+                           <span style="font-style: italic;">ABC</span>
+                        </td>
+                        <td>
+                           <span style="font-style: italic;">ABC</span>  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          ABC
+                        </td>
+                        <td style="background-color: #ccc;">
+                           ABC
+                        </td>
+                        <td>
+                           ABC
+                        </td>
+                        <td>
+                          ABC  
+                        </td>
+                    </tr>
+                     <tr>
+                        <td style="background-color: #ccc;">
+                         ABC
+                        </td>
+                        <td style="background-color: #ccc;">
+                         ABC
+                        </td>
+                        <td>
+                          ABC
+                        </td>
+                        <td>
+                          ABC  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                         ABC
+                        </td>
+                        <td>
+                        ABC 
+                        </td>
+                        <td>
+                         US $ 04390340340304
+                        </td>
+                        <td>
+                         ABC
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            shdlknfdlklskdfn;lvjljxvkl
+                        </td>
+                        <td>
+                            hskljhlkshnlkzdlk
+                        </td>
+                        <td>
+                          Total
+                        </td>
+                        <td>
+                        US $ 100000000000
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            sdkshdlknsdklnlksd
+                        </td>
+                        <td>
+                            sdhjhdsksdkdks
+                        </td>
+                        <td>
+                          <b>AABCHKJLJ <span style="font-style: italic;">(Rounding)</span></b>
+                        </td>
+                        <td>
+                          ABC
+                        </td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <br><br>
+
+        </div>
+
+        <center>
+            <button class="button icon-left ion-archive button-royal" ng-click="generatePDF()">Generate PDF</button>
+        </center>
+
+        <center><canvas id="thecanvas" width="790px" height="1200px"></canvas></center>
+
+    </ion-content>
+</ion-pane>
+</body>
+</html>

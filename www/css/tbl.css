@@ -1,0 +1,288 @@
+.green {
+  background-color: #33cd5f ;
+  font-size: 18px;
+  font-weight: 500;
+  text-align:center;
+}
+
+.textmargin1 {
+  color: #5c5b5b;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:center;
+}
+
+.textmargin2 {
+  color: #5c5b5b;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:center;
+}
+
+.textmargin3 {
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:center;
+}
+
+.textmargin4 {
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:left;
+}
+
+.textmargin5 {
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:center;
+  font-weight:bold;
+}
+
+.background2, .background2 .pane {
+    background-color:  #fff;
+}
+
+.imgpdf {
+    float: left; 
+	margin: 0px 15px 15px 0px;
+	margin-left: 9px;
+}
+
+.textquotation {
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:left;
+}
+
+.textquotation2 {
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:left;
+  font-weight:bold;
+}
+
+.textquotation3 {
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:left;
+  font-weight:bold;
+  font-size: 16px;
+  margin-left: 9px;
+}
+
+.textquotation4 {
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:left;
+  font-weight:bolditalic;
+  font-size: 16px;
+  margin-left: 9px;
+}
+
+.textquotation5 {
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  text-align:left;
+  font-style: italic;
+  font-size: 10px;
+  margin-left: 9px;
+}
+
+
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+	width:100%;
+	border:1px solid #ffffff;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.CSSTableGenerator tr:hover td{
+	background-color:#ffffff;
+		
+
+}
+.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	background-color:#ffffff;
+
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+		background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+	background-color:#ffffff;
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+	background-color:#ffffff;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+.CSSTable {
+	margin:0px;padding:0px;
+	width:100%;
+	border:1px solid #ffffff;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.CSSTable table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTable tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.CSSTable table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.CSSTable table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.CSSTable tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.CSSTable tr:hover td{
+	background-color:#ffffff;
+		
+
+}
+.CSSTable td{
+	vertical-align:middle;
+	
+	background-color:#ffffff;
+
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.CSSTable tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTable tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTable tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTable tr:first-child td{
+		background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+	background-color:#ffffff;
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}
+.CSSTable tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+	background-color:#ffffff;
+}
+.CSSTable tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTable tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
